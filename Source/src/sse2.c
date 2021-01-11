@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 #ifdef FFTW_SINGLE
 #  define DS(d,s) s /* single-precision option */

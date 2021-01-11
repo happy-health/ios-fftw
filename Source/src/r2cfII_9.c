@@ -21,7 +21,7 @@
 /* This file was automatically generated --- DO NOT EDIT */
 /* Generated on Thu Dec 10 07:06:03 EST 2020 */
 
-#include "rdft/codelet-rdft.h"
+#include "codelet-rdft.h"
 
 #if defined(ARCH_PREFERS_FMA) || defined(ISA_EXTENSION_PREFERS_FMA)
 
@@ -32,7 +32,7 @@
  * (or, 12 additions, 4 multiplications, 30 fused multiply/add),
  * 48 stack variables, 17 constants, and 18 memory accesses
  */
-#include "rdft/scalar/r2cfII.h"
+#include "r2cfII.h"
 
 static void r2cfII_9(R *R0, R *R1, R *Cr, R *Ci, stride rs, stride csr, stride csi, INT v, INT ivs, INT ovs)
 {
@@ -139,7 +139,7 @@ void X(codelet_r2cfII_9) (planner *p) { X(kr2c_register) (p, r2cfII_9, &desc);
  * (or, 25 additions, 13 multiplications, 17 fused multiply/add),
  * 39 stack variables, 14 constants, and 18 memory accesses
  */
-#include "rdft/scalar/r2cfII.h"
+#include "r2cfII.h"
 
 static void r2cfII_9(R *R0, R *R1, R *Cr, R *Ci, stride rs, stride csr, stride csi, INT v, INT ivs, INT ovs)
 {

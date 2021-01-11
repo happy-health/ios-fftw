@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 void X(solvtab_exec)(const solvtab tbl, planner *p)
 {

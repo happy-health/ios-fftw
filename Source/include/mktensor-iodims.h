@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 tensor *MKTENSOR_IODIMS(int rank, const IODIM *dims, int is, int os)
 {

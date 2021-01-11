@@ -20,7 +20,7 @@
 
 
 /* trigonometric functions */
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 #include <math.h>
 
 #if defined(TRIGREAL_IS_LONG_DOUBLE)

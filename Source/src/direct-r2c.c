@@ -21,7 +21,7 @@
 
 /* direct RDFT solver, using r2c codelets */
 
-#include "rdft/rdft.h"
+#include "rdft.h"
 
 typedef struct {
      solver super;

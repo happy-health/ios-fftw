@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 int X(tensor_kosherp)(const tensor *x)
 {

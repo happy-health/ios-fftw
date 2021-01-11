@@ -19,7 +19,7 @@
  */
 
 
-#include "rdft/rdft.h"
+#include "rdft.h"
 #include <stddef.h>
 
 static void destroy(problem *ego_)

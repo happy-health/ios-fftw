@@ -21,8 +21,8 @@
 #ifndef __REODFT_H__
 #define __REODFT_H__
 
-#include "kernel/ifftw.h"
-#include "rdft/rdft.h"
+#include "ifftw.h"
+#include "rdft.h"
 
 #define REODFT_KINDP(k) ((k) >= REDFT00 && (k) <= RODFT11)
 

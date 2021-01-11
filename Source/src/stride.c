@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 const INT X(an_INT_guaranteed_to_be_zero) = 0;
 

@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 typedef struct {
      scanner super;

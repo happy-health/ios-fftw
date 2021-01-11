@@ -18,8 +18,8 @@
  *
  */
 
-#include "api/api.h"
-#include "rdft/rdft.h"
+#include "api.h"
+#include "rdft.h"
 
 rdft_kind *X(map_r2r_kind)(int rank, const X(r2r_kind) * kind)
 {

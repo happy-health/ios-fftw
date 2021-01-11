@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 static planner *plnr = 0;
 

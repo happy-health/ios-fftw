@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 X(plan) X(plan_dft_c2r_1d)(int n, C *in, R *out, unsigned flags)
 {

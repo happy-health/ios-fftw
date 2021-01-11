@@ -22,7 +22,7 @@
 /* rank-0, vector-rank-3, non-square in-place transposition
    (see rank0.c for square transposition)  */
 
-#include "rdft/rdft.h"
+#include "rdft.h"
 
 #ifdef HAVE_STRING_H
 #include <string.h>		/* for memcpy() */

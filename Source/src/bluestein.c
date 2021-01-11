@@ -18,7 +18,7 @@
  *
  */
 
-#include "dft/dft.h"
+#include "dft.h"
 
 typedef struct {
      solver super;

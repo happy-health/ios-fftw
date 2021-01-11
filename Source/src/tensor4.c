@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 INT X(tensor_max_index)(const tensor *sz)
 {

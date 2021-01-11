@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 #include "simd-common.h"
 
 #if HAVE_SIMD

@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 /*
   common routines for Rader solvers 

@@ -26,7 +26,7 @@
 #ifndef __RDFT_CODELET_H__
 #define __RDFT_CODELET_H__
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 /**************************************************************
  * types of codelets

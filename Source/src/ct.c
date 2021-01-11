@@ -20,7 +20,7 @@
 
 /* common routines for Cooley-Tukey algorithms */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 #define POW2P(n) (((n) > 0) && (((n) & ((n) - 1)) == 0))
 

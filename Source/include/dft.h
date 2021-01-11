@@ -22,8 +22,8 @@
 #ifndef __DFT_H__
 #define __DFT_H__
 
-#include "kernel/ifftw.h"
-#include "dft/codelet-dft.h"
+#include "ifftw.h"
+#include "codelet-dft.h"
 
 #ifdef __cplusplus
 extern "C"

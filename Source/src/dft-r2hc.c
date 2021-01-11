@@ -25,8 +25,8 @@
    also even be faster than the complex algorithms for split (as opposed
    to interleaved) real/imag complex data. */
 
-#include "rdft/rdft.h"
-#include "dft/dft.h"
+#include "rdft.h"
+#include "dft.h"
 
 typedef struct {
      solver super;

@@ -18,8 +18,8 @@
  *
  */
 
-#include "api/api.h"
-#include "rdft/rdft.h"
+#include "api.h"
+#include "rdft.h"
 
 /* guru interface: requires care in alignment, r - i, etcetera. */
 void X(execute_split_dft_r2c)(const X(plan) p, R *in, R *ro, R *io)

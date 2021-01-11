@@ -18,8 +18,8 @@
  *
  */
 
-#include "api/api.h"
-#include "rdft/rdft.h"
+#include "api.h"
+#include "rdft.h"
 
 X(plan) X(plan_many_dft_c2r)(int rank, const int *n,
 			     int howmany,

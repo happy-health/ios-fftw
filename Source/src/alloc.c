@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 void *X(malloc_plain)(size_t n)
 {

@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 X(plan) X(plan_dft)(int rank, const int *n,
 		    C *in, C *out, int sign, unsigned flags)

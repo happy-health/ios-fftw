@@ -18,12 +18,12 @@
  *
  */
 
-#include "rdft/codelet-rdft.h"
-#include "rdft/scalar/hf.h"
+#include "codelet-rdft.h"
+#include "hf.h"
 
 const hc2hc_genus GENUS = { R2HC, 1 };
 
 #undef GENUS
-#include "rdft/scalar/hb.h"
+#include "hb.h"
 
 const hc2hc_genus GENUS = { HC2R, 1 };

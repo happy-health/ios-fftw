@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 tensor *X(mktensor_rowmajor)(int rnk, const int *n,
 			     const int *niphys, const int *nophys,

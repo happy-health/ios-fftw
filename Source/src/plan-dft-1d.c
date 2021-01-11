@@ -18,8 +18,8 @@
  *
  */
 
-#include "api/api.h"
-#include "dft/dft.h"
+#include "api.h"
+#include "dft.h"
 
 X(plan) X(plan_dft_1d)(int n, C *in, C *out, int sign, unsigned flags)
 {

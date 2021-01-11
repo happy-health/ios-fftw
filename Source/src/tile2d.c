@@ -19,7 +19,7 @@
  */
 
 /* out of place 2D copy routines */
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 void X(tile2d)(INT n0l, INT n0u, INT n1l, INT n1u, INT tilesz,
 	       void (*f)(INT n0l, INT n0u, INT n1l, INT n1u, void *args),

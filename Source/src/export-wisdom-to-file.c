@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 void X(export_wisdom_to_file)(FILE *output_file)
 {

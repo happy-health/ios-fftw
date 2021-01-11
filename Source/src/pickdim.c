@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 
 /* Given a solver which_dim, a vector sz, and whether or not the

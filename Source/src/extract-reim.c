@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 /* decompose complex pointer into real and imaginary parts.
    Flip real and imaginary if there the sign does not match

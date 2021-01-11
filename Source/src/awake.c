@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 void X(null_awake)(plan *ego, enum wakefulness wakefulness)
 {

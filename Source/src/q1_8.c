@@ -21,7 +21,7 @@
 /* This file was automatically generated --- DO NOT EDIT */
 /* Generated on Thu Dec 10 07:04:24 EST 2020 */
 
-#include "dft/codelet-dft.h"
+#include "codelet-dft.h"
 
 #if defined(ARCH_PREFERS_FMA) || defined(ISA_EXTENSION_PREFERS_FMA)
 
@@ -32,7 +32,7 @@
  * (or, 352 additions, 112 multiplications, 176 fused multiply/add),
  * 152 stack variables, 1 constants, and 256 memory accesses
  */
-#include "dft/scalar/q.h"
+#include "q.h"
 
 static void q1_8(R *rio, R *iio, const R *W, stride rs, stride vs, INT mb, INT me, INT ms)
 {
@@ -1241,7 +1241,7 @@ void X(codelet_q1_8) (planner *p) {
  * (or, 416 additions, 144 multiplications, 112 fused multiply/add),
  * 142 stack variables, 1 constants, and 256 memory accesses
  */
-#include "dft/scalar/q.h"
+#include "q.h"
 
 static void q1_8(R *rio, R *iio, const R *W, stride rs, stride vs, INT mb, INT me, INT ms)
 {

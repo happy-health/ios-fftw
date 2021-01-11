@@ -21,7 +21,7 @@
 /* This file was automatically generated --- DO NOT EDIT */
 /* Generated on Thu Dec 10 07:04:12 EST 2020 */
 
-#include "dft/codelet-dft.h"
+#include "codelet-dft.h"
 
 #if defined(ARCH_PREFERS_FMA) || defined(ISA_EXTENSION_PREFERS_FMA)
 
@@ -32,7 +32,7 @@
  * (or, 104 additions, 30 multiplications, 70 fused multiply/add),
  * 60 stack variables, 3 constants, and 64 memory accesses
  */
-#include "dft/scalar/t.h"
+#include "t.h"
 
 static void t1_16(R *ri, R *ii, const R *W, stride rs, INT mb, INT me, INT ms)
 {
@@ -425,7 +425,7 @@ void X(codelet_t1_16) (planner *p) {
  * (or, 136 additions, 46 multiplications, 38 fused multiply/add),
  * 52 stack variables, 3 constants, and 64 memory accesses
  */
-#include "dft/scalar/t.h"
+#include "t.h"
 
 static void t1_16(R *ri, R *ii, const R *W, stride rs, INT mb, INT me, INT ms)
 {

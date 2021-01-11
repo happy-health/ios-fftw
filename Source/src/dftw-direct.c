@@ -19,7 +19,7 @@
  */
 
 
-#include "dft/ct.h"
+#include "ct.h"
 
 typedef struct {
      ct_solver super;

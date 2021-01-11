@@ -19,7 +19,7 @@
  */
 
 
-#include "rdft/rdft.h"
+#include "rdft.h"
 
 static const solvtab s =
 {

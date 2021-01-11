@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 /* Currently, mktensor_4d and mktensor_5d are only used in the MPI
    routines, where very complicated transpositions are required.

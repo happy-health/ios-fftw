@@ -19,7 +19,7 @@
  */
 
 
-#include "rdft/hc2hc.h"
+#include "hc2hc.h"
 
 void X(khc2hc_register)(planner *p, khc2hc codelet, const hc2hc_desc *desc)
 {

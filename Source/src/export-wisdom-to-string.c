@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 char *X(export_wisdom_to_string)(void)
 {

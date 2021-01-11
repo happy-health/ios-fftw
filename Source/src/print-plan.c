@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 
 char *X(sprint_plan)(const X(plan) p)
 {

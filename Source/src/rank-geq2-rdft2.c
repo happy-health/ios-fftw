@@ -21,8 +21,8 @@
 
 /* plans for RDFT2 of rank >= 2 (multidimensional) */
 
-#include "rdft/rdft.h"
-#include "dft/dft.h"
+#include "rdft.h"
+#include "dft.h"
 
 typedef struct {
      solver super;

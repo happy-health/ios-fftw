@@ -19,7 +19,7 @@
  */
 
 #include "ct-hc2c.h"
-#include "dft/dft.h"
+#include "dft.h"
 
 typedef struct {
      plan_rdft2 super;

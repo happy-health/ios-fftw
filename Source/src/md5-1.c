@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 
 void X(md5putb)(md5 *p, const void *d_, size_t len)

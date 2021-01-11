@@ -18,7 +18,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 #include <string.h>
 
 /* GNU Coding Standards, Sec. 5.2: "Please write the comments in a GNU

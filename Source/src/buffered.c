@@ -20,7 +20,7 @@
 
 /* routines shared by the various buffered solvers */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 #define DEFAULT_MAXNBUF ((INT)256)
 

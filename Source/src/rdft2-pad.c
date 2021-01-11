@@ -19,7 +19,7 @@
  */
 
 #include <string.h>
-#include "api/api.h"
+#include "api.h"
 
 const int *X(rdft2_pad)(int rnk, const int *n, const int *nembed,
 			int inplace, int cmplx, int **nfree)

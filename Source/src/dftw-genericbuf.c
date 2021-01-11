@@ -21,7 +21,7 @@
 /* express a twiddle problem in terms of dft + multiplication by
    twiddle factors */
 
-#include "dft/ct.h"
+#include "ct.h"
 
 typedef struct {
      ct_solver super;

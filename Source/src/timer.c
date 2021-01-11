@@ -19,7 +19,7 @@
  */
 
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 #ifdef HAVE_UNISTD_H
 #  include <unistd.h>

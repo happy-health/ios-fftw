@@ -18,7 +18,7 @@
  *
  */
 
-#include "api/api.h"
+#include "api.h"
 #include <stdio.h>
 
 #define BUFSZ 256

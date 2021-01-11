@@ -23,7 +23,7 @@
  *
  */
 
-#include "kernel/ifftw.h"
+#include "ifftw.h"
 
 #if HAVE_KCVI
 

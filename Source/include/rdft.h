@@ -21,8 +21,8 @@
 #ifndef __RDFT_H__
 #define __RDFT_H__
 
-#include "kernel/ifftw.h"
-#include "rdft/codelet-rdft.h"
+#include "ifftw.h"
+#include "codelet-rdft.h"
 
 #ifdef __cplusplus
 extern "C"
