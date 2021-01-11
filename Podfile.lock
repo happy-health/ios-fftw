@@ -1,0 +1,23 @@
+PODS:
+  - fftw (0.0.1)
+  - SwiftFormat/CLI (0.47.5)
+
+DEPENDENCIES:
+  - fftw (from `./`)
+  - SwiftFormat/CLI
+
+SPEC REPOS:
+  trunk:
+    - SwiftFormat
+
+EXTERNAL SOURCES:
+  fftw:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  fftw: c28c0baacf0ff60b373cf677b858d8a08084c9bb
+  SwiftFormat: 5e93cab5ee8334f93ddc50aeb1a98d29b99054db
+
+PODFILE CHECKSUM: b9a0c173a8e24a4cfc05d97b737d82764e783d6c
+
+COCOAPODS: 1.10.0.rc.1
