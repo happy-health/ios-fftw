@@ -13,6 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let plan = fftw_malloc(1024)
+        fftw_free(plan)
     }
 
 }
