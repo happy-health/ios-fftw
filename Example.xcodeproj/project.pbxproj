@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -469,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gideonhealth.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gideonhealth.fftw.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development (Wildcard)";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "macOS Development (Wildcard)";
@@ -495,7 +495,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gideonhealth.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gideonhealth.fftw.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development (Wildcard)";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "macOS Development (Wildcard)";
