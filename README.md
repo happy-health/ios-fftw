@@ -1,8 +1,6 @@
-# GideonUtils
+# fftw
 
-
-
-A library of shared base classes, protocols, and functions used in Gideon Health iOS apps and frameworks.
+Self hosted fftw library converted to Pod (http://fftw.org/)
 
 ## Development Instructions
 
