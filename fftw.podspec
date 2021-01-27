@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'GNU', :file => 'LICENSE' }
   s.summary = 'FFTW library'
   s.homepage = 'https://github.com/happy-health/ios-fftw'
-  s.authors = { 'Haris Ali' => 'haris@happy.ai' }
+  s.authors = { 'Matteo Frigo' => 'athena@fftw.org', 'Steven G. Johnson' => 'stevenj@math.mit.edu' }
   s.source = { :git => 'git@github.com:happy-health/ios-fftw.git', :tag => s.version }
   s.platform = :ios, '12.0'
   s.static_framework = true

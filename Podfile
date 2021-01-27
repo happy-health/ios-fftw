@@ -1,6 +1,6 @@
 platform :ios, '12.0'
 
-source 'git@github.com:gideon-health/ios-pods.git'
+source 'git@github.com:happy-health/ios-pods.git'
 source 'https://cdn.cocoapods.org/'
 
 target 'Example' do
