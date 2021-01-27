@@ -24,7 +24,7 @@ Then in command line, install the Pod.
 pod install
 ```
 
-Architectures included: 
+### Architectures included: 
 
 ```
 x86_64 arm64
