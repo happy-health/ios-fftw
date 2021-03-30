@@ -1,11 +1,14 @@
 platform :ios, '12.0'
 
-target 'Example' do
+def shared_pods
   use_frameworks!
-
   pod 'HappyFFTW', :path => './'
+end
 
-  target 'ExampleTests' do
-    inherit! :search_paths
-  end
+target 'Example' do
+  shared_pods
+end
+
+target 'ExampleTests' do
+  shared_pods
 end

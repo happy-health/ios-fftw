@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F9CF79058B535CC7554605E /* Pods_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE2EB5EBC8A1ED06E4D829 /* Pods_ExampleTests.framework */; };
+		661E6A4F26136E5200798C85 /* SanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6A4E26136E5200798C85 /* SanityTests.swift */; };
 		669FECFE241B16DE00C7733C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FECFD241B16DE00C7733C /* AppDelegate.swift */; };
 		669FED02241B16DE00C7733C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FED01241B16DE00C7733C /* ViewController.swift */; };
 		669FED05241B16DE00C7733C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FED03241B16DE00C7733C /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		3FBE2EB5EBC8A1ED06E4D829 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B82475E1CD5ED52A396F4F /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D3A0BDA69F19A6C32FE4FB3 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661E6A4E26136E5200798C85 /* SanityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanityTests.swift; sourceTree = "<group>"; };
 		664CB2FA2571A386008E6B1F /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
 		669FECFA241B16DE00C7733C /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669FECFD241B16DE00C7733C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				669FED16241B16DF00C7733C /* Info.plist */,
+				661E6A4E26136E5200798C85 /* SanityTests.swift */,
 			);
 			path = ExampleTests;
 			sourceTree = "<group>";
@@ -190,7 +193,7 @@
 					};
 					669FED0F241B16DF00C7733C = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
+						LastSwiftMigration = 1240;
 						TestTargetID = 669FECF9241B16DE00C7733C;
 					};
 				};
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661E6A4F26136E5200798C85 /* SanityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
