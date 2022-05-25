@@ -5,13 +5,9 @@
 //  Created by Haris Ali on 5/25/22.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef HappyFFTW_h
+#define HappyFFTW_h
 
-//! Project version number for HappyFFTW.
-FOUNDATION_EXPORT double HappyFFTWVersionNumber;
+#include <HappyFFTW/fftw3.h>
 
-//! Project version string for HappyFFTW.
-FOUNDATION_EXPORT const unsigned char HappyFFTWVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <HappyFFTW/PublicHeader.h>
-#import "fftw3.h"
+#endif /* HappyFFTW_h */

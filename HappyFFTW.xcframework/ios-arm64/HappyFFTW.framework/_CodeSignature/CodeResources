@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HappyFFTW.h</key>
 		<data>
-		e3jqN9VUEKnkXJrFVCcPlPLIoqU=
+		B/XBkRbMllxeaeieIjxnEo7TduQ=
 		</data>
 		<key>Headers/fftw3.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		afz6PYt2yKO+KPdBbojxCtyphFc=
+		IL3PwKb+MI1wv56EaAT79P5xVzg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			04y10eyMZK7pOHktf2fq0e/7cOCat2RlLSdTm7MQIF8=
+			BZnTu6CiFRcG9WfGuPq6lh7jsEO4al5Kn8Pdn0IjqXU=
 			</data>
 		</dict>
 		<key>Headers/fftw3.h</key>
