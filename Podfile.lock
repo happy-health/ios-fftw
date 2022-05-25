@@ -1,5 +1,5 @@
 PODS:
-  - HappyFFTW (3.3.10)
+  - HappyFFTW (3.3.10-xcframework)
 
 DEPENDENCIES:
   - HappyFFTW (from `./`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  HappyFFTW: d6e10bd6e9edc05499fff508f879aa397d8ba749
+  HappyFFTW: fed37ad299ddae787f79e6f8b384f60bba918e0b
 
 PODFILE CHECKSUM: e39ff18143ad3c20f3df85fe822b2fd5f6659ae8
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

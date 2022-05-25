@@ -1,0 +1,6 @@
+framework module HappyFFTW {
+  umbrella header "HappyFFTW.h"
+
+  export *
+  module * { export * }
+}
